@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <style>
+    #container {
+      border: 1px solid gray;
+      box-sizing: border-box;
+      margin: 50px;
+    }
+
+    .slide {
+      top: 10%;
+      margin: 20px;
+      padding: 10px;
+
+    }
+
+    .on {
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+
+    .cizili {
+      font-size: 25px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+
+    .yorum {
+      font-size: 12px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+
+    .turuncu {
+      font-size: 25px;
+      color: orange;
+    }
+
+    .sepet {
+      width: 500px;
+      background-color: orange;
+    }
+
+    .sepet1{
+      position: relative;
+      background-color: orange;
+      margin-left: 230px;
+      top: -130px;
+      width: 200px;
+      height: 60px;
+    }
+
+    .kalp {
+      padding: 10px;
+      margin-left: 20px;
+      color: black;
+      width: 50px;
+      background-color: tomato;
+    }
+
+    .slide2 {
+      top: 20%;
+    }
+
+    .ok {
+      margin-left: 95%;
+      margin-top: -35%;
+    }
+
+    .konusma {
+      color: orange;
+    }
+
+    .özel{
+      margin-right: 10px; 
+      width: 140px;
+    }
+    .hiza{
+      position: relative;
+      left: 80px;
+      top: -65px;
+    }
+    @media screen and (min-width: 768px) {
+      #container1 {
+        display: none;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      #container {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <div class="row">
+      <div class="col col-6">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="laptop-336373_1920.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="laptop-336373_1920.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="laptop-336373_1920.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="col col-6">
+        <h3><strong>Samsung</strong> Lc24f390fhmxuf 23.5" 4ms, 60hz, Analog, Hdmi, Va Led, Curved, Freesync Monitör
+          920417</h3>
+        <span class="yorum"> Satıcı: <a href="#" style="text-decoration: none;">Bizdehesaplı</a> </span><br><br>
+        <img src="icons8_christmas_star_16.png" alt=""> <span class="yorum"> Henüz Yorum Yazılmamış </span><br><br>
+
+        <button type="button" class="btn btn-outline-danger on">-10%</button> <del class="cizili">1.420,17 TL</del>
+        <span class="turuncu"><strong> 1.278,16 TL</strong></span>
+        <hr>
+        <button type="button" class="btn btn-primary btn-lg sepet">Sepete Ekle</button> <button type="button"
+          class="btn btn-outline-success kalp"> <img src="icons8_hearts_16.png" alt=""> </button> <br><br>
+
+        <span class="yorum"><strong>Tahmini Kargoya Teslim:</strong> 2 gün içinde</span>
+        <hr>
+        <h6>Öne Çıkan Bilgiler</h6>
+        <table class="table">
+          <tbody>
+            <tr>
+              <td>Ekran Boyutu</td>
+              <th>: 20 inç</th>
+              <td>Garanti Tipi</td>
+              <th>: İthalatçı Garantili</th>
+            </tr>
+            <tr>
+              <td>Çözünürlük</td>
+              <th>: 1280 x 1024</th>
+              <td>Panel Tipi</td>
+              <th>: TFC - LCD</th>
+            </tr>
+            <tr>
+              <td>Tepki süresi</td>
+              <th>: 0.5 ms</th>
+              <td>Görüntüleme Tekniği</td>
+              <th>: LED</th>
+            </tr>
+          </tbody>
+        </table>
+        <hr>
+        <ul>
+          <li>15 gün içinde ücretsiz iade Detaylı bilgi için <a href="#" style="color: black;">tıklayın</a> </li>
+          <li>Bu ürün <a href="#" style="color: black;"><strong>Bizdehesaplı</strong></a> tarafından gönderilecektir.
+          </li>
+          <li>SAMSUNG LC24F390FHMXUF 23.5" 4ms, 60Hz, Analog, HDMI, VA LED, Curved, FreeSync Monitör</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="container1">
+    <div class="row">
+      <div class="col col-12">
+        <div id="carouselExampleIndicatorss" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="laptop-336373_1920.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="laptop-336373_1920.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="laptop-336373_1920.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="col col-12 p-5">
+        <h3><strong>Samsung</strong> Lc24f390fhmxuf 23.5" 4ms, 60hz, Analog, Hdmi, Va Led, Curved,...</h3> <h6>
+          <strong>12 ay'a varan taksit seçenekleri!</strong></h6>
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+            class="bi bi-box-arrow-up ok" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M3.5 6a.5.5 0 0 0-.5.5v8a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5v-8a.5.5 0 0 0-.5-.5h-2a.5.5 0 0 1 0-1h2A1.5 1.5 0 0 1 14 6.5v8a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 14.5v-8A1.5 1.5 0 0 1 3.5 5h2a.5.5 0 0 1 0 1h-2z" />
+            <path fill-rule="evenodd"
+              d="M7.646.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 1.707V10.5a.5.5 0 0 1-1 0V1.707L5.354 3.854a.5.5 0 1 1-.708-.708l3-3z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+            class="bi bi-chat-left-text konusma" viewBox="0 0 16 16">
+            <path
+              d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+            <path
+              d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+          </svg><span style="font-size: 20px;"><strong> Ürünün Soru & Cevapları (2) ></strong></span>
+          <div style="overflow-x: scroll; ">
+            <div class="btn-group m-1 p-1">
+              <button type="button" class="btn btn-light btn-sm özel"><span style="color: orange;"><strong>Ekran
+                    Boyutu</strong> </span> <br> <strong>20 inç</strong> </button>
+              <button type="button" class="btn btn-light btn-sm özel"><span
+                  style="color: orange;"><strong>Çözünürlük</strong> </span> <br> <strong>1280 x 1024</strong> </button>
+              <button type="button" class="btn btn-light btn-sm özel"><span style="color: orange;"><strong>Tepki
+                    Süresi</strong> </span> <br> <strong>0.5 ms</strong> </button>
+              <button type="button" class="btn btn-light btn-sm özel"><span style="color: orange;"><strong>Garanti
+                    Tipi</strong> </span> <br> <strong>İthalatçı Garantili</strong> </button>
+              <button type="button" class="btn btn-light btn-sm özel"><span style="color: orange;"><strong>Panel
+                    Tipi</strong> </span> <br> <strong>TFC - LCD</strong> </button>
+              <button type="button" class="btn btn-light btn-sm özel"><span style="color: orange;"><strong>Görüntüleme
+                    Tekniği</strong> </span> <br> <strong>LED</strong> </button>
+            </div>
+          </div>
+          <hr>
+          <button type="button" class="btn btn-danger" style="margin-top: 10px; padding: 10px; font-size: 20px;">-10%</button><br>
+          <span class="hiza" ><del class="cizili">1.420,17 TL</del><br>
+        <span class="turuncu"><strong> 1.278,16 TL</strong></span></span>
+        <button type="button" class="btn btn-primary btn-lg sepet1">Sepete Ekle</button> 
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
